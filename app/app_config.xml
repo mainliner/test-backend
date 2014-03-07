@@ -1,0 +1,9 @@
+<uwsgi>
+	<pythonpath>/home/project/env-push/app</pythonpath>
+	<module>app</module>
+	<callable>app</callable>
+	<scoket>127.0.0.1:8080</socket>
+	<master/>
+	<processe>4</processes>
+	<memory-report/>
+</uwsgi>
